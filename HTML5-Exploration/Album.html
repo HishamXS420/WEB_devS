@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width : 186px;
+            height : 271px;
+            border: 3px solid red;
+            border-radius: 10px;
+            /*overflow: scroll;*/
+            position: relative; /* */
+            margin: 10px;
+            overflow: hidden;
+        }
+    /*    .photo-img{
+            width: 100%;
+        }
+        */
+        .photo-details{
+            display : none;
+            position: absolute;
+            width:186px;/* */
+            top : 0;
+        }
+        .photo-details h3{
+            background-color: darkblue;
+            color: antiquewhite;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-details{
+          display: block; 
+            background-color: rgba(221, 195, 129, 0.611);
+           
+        }
+        .photo-frame:hover .photo{
+            transform : scale(1.5) skew(-25deg);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+<!--  -->
+<body>
+    <h1>Tigers are Majestic Creatures</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Shei </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ipsa vitae accusamus non veritatis aliquid. Officia saepe, accusamus libero consequatur placeat, odio temporibus cumque, reiciendis laboriosam cum quidem incidunt odit!</p>
+                   
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+</body>
+</html>
